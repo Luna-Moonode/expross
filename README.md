@@ -1,4 +1,4 @@
-# expross框架  
+# expross框架  V1.2
 github地址：https://github.com/WangZhechao/expross
 ***
 ### expross
@@ -15,8 +15,8 @@ module.exports = {
 ##### 属性:  
 ###### _router是Router的实例  
 ##### 方法:
-###### get方法执行_router.get方法
-###### listen启动服务器并监听，执行_router.handle方法
+###### `get(path, fn) => Router` 执行_router.get方法
+###### `listen(port, cb, ...) => Server` 启动服务器并监听，执行_router.handle方法
 ### Router
 ##### 说明: 
 ###### Router代表路由组件，负责应用程序的整个路由系统。    
